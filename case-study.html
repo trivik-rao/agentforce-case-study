@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Agentforce Case Study | Kemisoft</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  :root {
+    --navy: #032d60;
+    --navy2: #0b5cab;
+    --blue: #0176d3;
+    --gold: #f2b01e;
+    --accent: #f5872e;
+    --sand: #fbf7ee;
+    --sand2: #f5edda;
+    --line: #dbe8f5;
+    --ink: #0b2540;
+    --body: #3e5266;
+    --radius: 18px;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: var(--body);
+    line-height: 1.65;
+    margin: 0;
+    background: #ffffff;
+  }
+  .wrap { max-width: 800px; margin: 0 auto; padding: 0 24px 80px; }
+
+  .hero {
+    background: var(--navy);
+    padding: 56px 24px;
+    margin-bottom: 48px;
+  }
+  .hero-inner { max-width: 800px; margin: 0 auto; }
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 13px;
+    color: var(--gold);
+    font-weight: 700;
+    margin-bottom: 14px;
+  }
+  h1 {
+    font-size: 38px;
+    line-height: 1.2;
+    font-weight: 800;
+    color: #ffffff;
+    margin: 0 0 20px;
+  }
+  .meta {
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
+    color: #cfe0f5;
+    font-size: 14px;
+  }
+  .meta strong { color: #ffffff; }
+
+  h2 {
+    font-size: 26px;
+    font-weight: 800;
+    color: var(--ink);
+    margin: 48px 0 16px;
+  }
+  h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--ink);
+    margin: 32px 0 10px;
+  }
+  p { margin: 0 0 16px; font-size: 16px; }
+
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 14px;
+    margin: 32px 0;
+  }
+  .stat {
+    background: var(--sand);
+    border: 1px solid var(--sand2);
+    border-radius: var(--radius);
+    padding: 22px 16px;
+    text-align: center;
+  }
+  .stat-num {
+    display: block;
+    font-size: 26px;
+    font-weight: 800;
+    color: var(--blue);
+    margin-bottom: 4px;
+  }
+  .stat-label { font-size: 13px; color: var(--body); }
+
+  figure { margin: 24px 0 32px; }
+  figure img {
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    display: block;
+  }
+  figcaption {
+    font-size: 13px;
+    color: var(--body);
+    margin-top: 8px;
+    text-align: center;
+  }
+
+  .callout {
+    background: var(--sand);
+    border-left: 4px solid var(--gold);
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 24px 0;
+    font-size: 15px;
+    color: var(--ink);
+  }
+
+  .tech-section {
+    background: var(--sand);
+    border: 1px solid var(--sand2);
+    border-radius: var(--radius);
+    padding: 32px;
+    margin: 40px 0;
+  }
+  .tech-section h2 { margin-top: 0; }
+
+  .cta {
+    margin-top: 56px;
+    padding: 36px;
+    background: var(--navy);
+    border-radius: var(--radius);
+    text-align: center;
+  }
+  .cta h2 { color: #ffffff; margin-top: 0; }
+  .cta p { color: #cfe0f5; margin-bottom: 20px; }
+  .cta a {
+    display: inline-block;
+    background: var(--accent);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 13px 30px;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+  .footnote {
+    margin-top: 40px;
+    font-size: 12px;
+    color: var(--body);
+    border-top: 1px solid var(--line);
+    padding-top: 16px;
+  }
+</style>
+</head>
+<body>
+
+  <div class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">Case Study</div>
+      <h1>Support that never sleeps, without a bigger team</h1>
+      <div class="meta">
+        <div><strong>Industry:</strong> Utilities</div>
+        <div><strong>Client:</strong> Meridian Utilities (name anonymized)</div>
+        <div><strong>Partner:</strong> Kemisoft</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+
+    <p>
+      Meridian Utilities was getting more support requests than its team could keep up with. Customers wanted
+      answers on outages, billing, and service appointments right away, but the help desk only ran during
+      business hours. Nights and weekends, requests just piled up.
+    </p>
+    <p>
+      Kemisoft built them a Salesforce Agentforce agent that answers the routine stuff instantly and hands off
+      to a real person the moment something needs one.
+    </p>
+
+    <div class="stats">
+      <div class="stat"><span class="stat-num">24/7/365</span><span class="stat-label">Support availability</span></div>
+      <div class="stat"><span class="stat-num">~75%</span><span class="stat-label">Lower cost on routine inquiries</span></div>
+      <div class="stat"><span class="stat-num">Zero</span><span class="stat-label">Downtime since launch</span></div>
+      <div class="stat"><span class="stat-num">Live</span><span class="stat-label">Human handoff when it matters</span></div>
+    </div>
+
+    <h2>See it in action</h2>
+    <p>A customer asks about a power outage. The agent finds the answer in Meridian's knowledge base and responds in seconds.</p>
+    <figure>
+      <img src="assets/screenshot-outage-status.png" alt="Agentforce answering an outage status question">
+      <figcaption>An outage question, answered instantly and grounded in real support content.</figcaption>
+    </figure>
+
+    <div class="callout">
+      Someone asks about autopay, the agent offers to open a ticket, collects their name and email, and hands
+      back a case number, all in one conversation. No one had to triage it by hand.
+    </div>
+    <figure>
+      <img src="assets/screenshot-conversation-handoff-1.png" alt="Conversation showing autopay question and automatic ticket creation">
+      <figcaption>A routine question turns into a logged, ready-to-work case, automatically.</figcaption>
+    </figure>
+
+    <figure>
+      <img src="assets/screenshot-case-record.png" alt="Salesforce case record created automatically by the agent">
+      <figcaption>The case that gets created behind the scenes, already filled in.</figcaption>
+    </figure>
+
+    <div class="tech-section">
+      <h2>How it works</h2>
+      <p>A quick look at what's under the hood, for the technically curious.</p>
+
+      <h3>One router, a few specialists</h3>
+      <p>
+        Instead of one agent trying to handle everything, the setup routes each question to a specialist: one
+        subagent answers from the knowledge base, one handles escalation to a person, and others catch off-topic
+        or unclear requests before they turn into bad answers.
+      </p>
+
+      <h3>Answers come from real content</h3>
+      <p>
+        The agent is told to answer only from Meridian's published knowledge articles, never to guess. If it
+        can't find a good match, it asks a clarifying question instead of making something up.
+      </p>
+      <figure>
+        <img src="assets/screenshot-knowledge-grounding.png" alt="Reasoning instructions requiring answers from Knowledge articles">
+        <figcaption>Answers stay grounded in published content, not invented on the spot.</figcaption>
+      </figure>
+
+      <h3>A real fallback when it's time for a human</h3>
+      <p>
+        The agent tries a live transfer first. If no one's available, it collects the customer's details,
+        summarizes the conversation, and opens a case automatically, so nothing gets dropped.
+      </p>
+      <figure>
+        <img src="assets/screenshot-escalation-logic.png" alt="Escalation logic showing live transfer and case creation fallback">
+        <figcaption>Live transfer first, a logged case as backup.</figcaption>
+      </figure>
+
+      <h3>It knows what it's not for</h3>
+      <p>
+        Off-topic or unclear questions get politely declined instead of a guess. That keeps trust high and
+        keeps the agent from wandering outside its job.
+      </p>
+      <figure>
+        <img src="assets/screenshot-offtopic-refusal-1.png" alt="Agent declining an off-topic request">
+        <figcaption>Off-topic requests get turned down, not answered badly.</figcaption>
+      </figure>
+    </div>
+
+    <h2>What changed</h2>
+    <p>
+      Meridian's team didn't get replaced. Customers stopped waiting for answers a machine could already give
+      correctly, and a person is still one step away for anything that needs one. Support now runs around the
+      clock, the cost of handling routine questions dropped by about 75%, and there's been no downtime since
+      launch.
+    </p>
+
+    <div class="cta">
+      <h2>Curious what this could look like for your team?</h2>
+      <p>Kemisoft builds Agentforce around how your business actually runs.</p>
+      <a href="#contact">Get in touch</a>
+    </div>
+
+    <div class="footnote">
+      Client details anonymized. Screenshots reflect a representative implementation with sample test data.
+    </div>
+
+  </div>
+</body>
+</html>
